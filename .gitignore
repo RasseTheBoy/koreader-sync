@@ -161,3 +161,6 @@ cython_debug/
 
 # koreader-sync
 data/db.json
+
+# vscode
+.vscode/

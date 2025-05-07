@@ -1,6 +1,8 @@
 services:
   kosync:
-    image: kosync:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: kosync
     ports:
       - 8081:8081
